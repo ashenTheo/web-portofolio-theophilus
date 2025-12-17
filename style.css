@@ -8,7 +8,7 @@
 }
 
 * { box-sizing: border-box; }
-
+evidence-image
 body {
   margin: 0;
   background: var(--bg);
@@ -17,9 +17,16 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 28px;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 20px;
 }
 
 /* ===========================
@@ -96,9 +103,9 @@ MODULES PAGE
   cursor: pointer;
 }
 
-
-
-.reflection p { margin: 10px 0; }
+.reflection p { 
+  margin: 10px 0; 
+}
 
 /* ===========================
 MODAL (CUSTOM)
@@ -278,7 +285,6 @@ RESPONSIVE
   border-radius: 6px;
   cursor: pointer;
 }
-
 
 .infographics img {
   width: 100%;
